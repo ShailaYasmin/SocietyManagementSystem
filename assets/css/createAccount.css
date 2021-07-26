@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    font-family: 'Josefin Sans' ,sans-serif;
+}
+
+body{
+	background: url(../image/regBack.jpg) no-repeat;
+	background-position:center;
+	background-size: cover;
+	height:100vh;/*for browser viewpiont*/
+	
+}
+p{
+	color:#fff;
+}
+.back-img{
+	width:100%;
+          height:933px;
+
+}
+
+a{
+	text-align: center;
+}
+.registration{
+	max-width: 350px;
+    width:100%;
+    height:auto;
+    background:#000;
+    color: #fff;
+    padding: 60px 45px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    box-shadow:10px;
+    opacity:.7;
+
+
+
+}
+.registration p{
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+}
+.input-field{
+	position: relative;
+	margin-bottom: 10px;
+	text-align: center;
+
+}
+.textfield{
+	width: 100%;
+	padding:12px;
+	padding-left: 30px;
+	border:none;
+	background: #eeeeee;
+	border-radius: 25px;
+
+}
+.signup-btn{
+	width: 60%;
+	
+	border-radius: 25px;
+	background: #3aaf9f;
+	padding:12px;
+	text-align: center;
+}
+.signup-btn a{
+	color: #fff;
+}
